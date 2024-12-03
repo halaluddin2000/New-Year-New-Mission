@@ -101,12 +101,15 @@ body {
 .midnight-party {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   padding: 10px;
   display: flex;
   justify-content: center;
+}
+.midnight-contant {
+  width: 550px;
 }
 
 .midnight-party img {
@@ -115,8 +118,9 @@ body {
 }
 .midnight-contant h2 {
   color: #fff;
-  font-size: 44px;
+  font-size: 64px;
   font-weight: 900;
+  margin-bottom: 0px;
 }
 .midnight-contant p {
   color: rgba(255, 255, 255, 0.8);
@@ -134,4 +138,66 @@ body {
 }
 .midnight-img {
   margin-left: 30px;
+}
+
+/* booking-contact */
+.booking {
+  margin: 50px 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+}
+.booking-contact {
+  padding-top: 50px;
+}
+.booking-contact p {
+  color: #070211;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.booking-contact p {
+  margin-bottom: 0px;
+}
+.booking-contact h3 {
+  color: #070211;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.booking-contact h2 {
+  color: #070211;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.booking-contact h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.booking-contact h2 {
+  margin-top: 0px;
+}
+.booking-contact span {
+  color: #f00;
+}
+.booking-contact button {
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+}
+
+/* -------------- offer-section */
+.offer-section {
+  margin: 100px 140px;
+  display: flex;
+  background: #fff;
 }
