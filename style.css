@@ -23,6 +23,7 @@ body {
   margin: 50px 140px;
   position: relative;
   border-radius: 16px;
+  opacity: 0.5;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .header img {
@@ -84,4 +85,53 @@ body {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
+}
+
+/* ------------midnight-party-------- */
+.midnight-section {
+  position: relative;
+  margin: 50px 140px;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.midnight-section img {
+  height: 100%;
+  width: 100%;
+}
+.midnight-party {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.midnight-party img {
+  width: 240px;
+  height: 350px;
+}
+.midnight-contant h2 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+}
+.midnight-contant p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+.midnight-img {
+  margin-left: 30px;
 }
