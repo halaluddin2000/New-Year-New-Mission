@@ -199,5 +199,134 @@ body {
 .offer-section {
   margin: 100px 140px;
   display: flex;
+  justify-items: center;
+  justify-content: center;
   background: #fff;
+  padding: 20px 8px;
+}
+.frast-contact {
+}
+.frast-contact h5 {
+  margin-bottom: 0px;
+  color: #f00;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+}
+.frast-contact h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.frast-contact p {
+  margin-top: 16px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+.offer-img {
+  padding: 10px;
+  justify-content: start;
+}
+.offer-img img {
+  border: 10px solid red;
+  border-radius: 50%;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+.secend-contact h2 {
+  padding-left: 20px;
+  margin-bottom: 0px;
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+.secend-contact p {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.secend-contact img {
+  padding-left: 20px;
+  width: 100px;
+  height: 120px;
+}
+
+/*-------- discount-section ----------*/
+.discount-section {
+  margin: 100px 140px;
+}
+.discount-contect {
+  text-align: center;
+}
+.discount-contect h5 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.discount-contect h2 {
+  font-size: 72px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+.discount-contect h2 span {
+  color: #f00;
+}
+.discount-contect p {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+}
+.discount-img {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.discount-img-1 {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.discount-img-1 {
+  margin-top: 10px;
+  width: 80%;
+  height: 100%;
+}
+.discount-img-1 img {
+  margin-bottom: -90px;
+  width: 100%;
+  height: 100%;
+}
+
+.discount-img-1 {
+  width: 80%;
+  height: 100%;
+}
+.discount-img-2 {
+  width: 80%;
+  height: 100%;
+}
+.discount-img-2 img {
+  width: 60%;
+}
+
+.discount-footer-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.discount-footer-img img {
+  width: 100%;
 }
